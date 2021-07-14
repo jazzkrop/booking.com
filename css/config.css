@@ -1,9 +1,33 @@
 :root {
   /* colors */
-  --color-primary: ;
-  --color-secondary: ;
-  --color-grey: ;
-  --color-yellow: ;
+
+  --color-primary-default: rgba(0, 53, 128, 1);
+  --color-primary-darken1: rgba(0, 34, 79, 1);
+
+  --color-blue-secondary-default: rgba(0, 113, 194, 1);
+  --color-blue-secondary--darken1: rgba(0, 89, 153, 1);
+
+  --color-white-primary-default: rgba(255, 255, 255, 1);
+  --color-white-secondary-opacity1: rgba(255, 255, 255, 0.06);
+  --color-white-secondary-opacity: rgba(255, 255, 255, 0.2);
+  --color-white-secondary-default: rgba(245, 245, 245, 1);
+  --color-white-border: rgba(231, 231, 231, 1);
+  --color-white-border-darken: rgba(230, 230, 230, 1);
+
+  --color-red-default: rgba(163, 0, 0, 1);
+
+  --color-brown-default: rgba(188, 91, 1, 1);
+  --color-brown-darken1: rgba(146, 62, 1, 1);
+
+  --color-yellow-default: rgba(254, 187, 2, 1);
+
+  --color-gray-default: rgba(189, 189, 189, 1);
+  --color-gray-darken1: rgba(165, 165, 165, 1);
+  --color-gray-darken2: rgba(131, 131, 131, 1);
+  --color-gray-darken3: rgba(107, 107, 107, 1);
+  --color-gray-darken4: rgba(51, 51, 51, 1);
+
+  --color-black-default: rgba(0, 0, 0, 1);
 
   /* borders */
   --border-radius-none: 0px;
@@ -114,60 +138,3 @@
   --philippines-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ph/7048127466891462116ee2774154585fb5607aba.png';
   --iceland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/is/7d644655f895f8e346b964dc18cf5b6608a98d52.png';
 }
-
- /* colors */
-
-/* PRIMARY */
---color-primary-default: rgba(0, 53, 128, 1);
---color-primary-darken1: rgba(0, 34, 79, 1);
-
-/* SECONDARY */
---color-blue-secondary-default: rgba(0, 113, 194, 1);
---color-blue-secondary--darken1: rgba(0, 89, 153, 1);
-
-
-/* WHITE */
---color-white-primary-default: rgba(255, 255, 255, 1);
---color-white-secondary-opacity1: rgba(255, 255, 255, 0.06);
---color-white-secondary-opacity: rgba(255,255,255,0.2);
---color-white-secondary-default: rgba(245, 245, 245, 1);
---color-white-border: rgba(231, 231, 231, 1);
---color-white-border-darken: rgba(230, 230, 230, 1);
-
-
-/* Yellow|Red */
-
---color-red-default: rgba(163, 0, 0, 1);
-
---color-brown-default: rgba(188, 91, 1, 1);
---color-brown-darken1: rgba(146, 62, 1, 1);
-
---color-yellow-default: rgba(254, 187, 2, 1);
-
-
-/* GRAY */
-
---color-gray-default: rgba(189, 189, 189, 1);
---color-gray-darken1: rgba(165, 165, 165, 1);
---color-gray-darken2: rgba(131, 131, 131, 1);
---color-gray-darken3: rgba(107, 107, 107, 1);
---color-gray-darken4: rgba(51, 51, 51, 1);
-
-
-/* Black */ 
-
---color-black-default: rgba(0, 0 ,0, 1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
