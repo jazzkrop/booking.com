@@ -1,0 +1,15 @@
+@import url(config.css);
+
+body {
+  font-family: var(--font-family-primary);
+}
+header {
+  background-color: var(--color-primary-default);
+}
+header .top {
+  padding: 8px;
+}
+.search {
+  padding: 44px 5px;
+  background: var(--color-white-darken3);
+}
