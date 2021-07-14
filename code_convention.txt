@@ -1,0 +1,4 @@
+Назви класів: "first-second"
+Максимальна кількість класів до одного тегу 3: "<div class="first-class second-class third-class"></div>"
+Семантичні теги: "<header> <nav> <main> <aside> <section> <footer> ..."
+Не використовуємо id
