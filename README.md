@@ -1,1 +1,3 @@
 # booking.com
+
+@copyright GavrikSystems
