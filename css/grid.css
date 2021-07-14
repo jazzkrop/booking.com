@@ -1,17 +1,30 @@
-.col-sm-auto {
-    flex: 0 0 auto;
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
     width: auto;
-  }
-
-  .col-1 {
+    flex-wrap: wrap;
+    display: flex;
+}
+.row-auto{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.col-auto {
+    padding: 12px;
+    flex: 1 0 0;
+}
+.col-1 {
     flex: 0 0 auto;
     width: 8.3333333333%;
-  }
-
-  .col-2 {
+}
+.col-2 {
     flex: 0 0 auto;
     width: 16.6666666667%;
-  }
+}
 
   .col-3 {
     flex: 0 0 auto;
@@ -62,15 +75,5 @@
     flex: 0 0 auto;
     width: 100%;
   }
-.row{
-    flex-wrap: wrap;
-    display: flex;
-}
-.container{
-    width: 100%;
-}
-.loyout{
-    margin: 0 auto;
-    width: 1350px;
-}
+
 
