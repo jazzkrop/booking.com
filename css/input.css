@@ -1,0 +1,25 @@
+@import url(config.css);
+body{
+    background: black;
+}
+.input-search{
+    width: 290px;
+    height: 52px;
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border-radius: var(--border-radius-small-2);
+    background-image: var(--bed);
+    background-position: bottom 18px left 15px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+
+.input-search:hover{
+    border: var(--border-width-light) var(--border-style-body) var(--color-gray-darken1);
+    border-radius: var(--border-radius-small-2);
+}
+
+.input-search:focus{
+    border: var(--border-width-light) var(--border-style-body) var(--color-gray-darken1);
+    border-radius: var(--border-radius-small-2);
+    outline: transparent;
+}

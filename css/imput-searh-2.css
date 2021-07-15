@@ -1,0 +1,14 @@
+@import url(config.css);
+
+
+.input-search-2{
+    width: 232px;
+    height: 36px;
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border-radius: var(--border-radius-small-2);
+    background-image: var(--calendar);
+    background-size: 20px;
+    background-position: bottom 16px left 16px;
+    padding-left: 52px;
+    background-repeat: no-repeat;
+}
