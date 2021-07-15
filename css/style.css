@@ -2,6 +2,11 @@
 
 body {
   font-family: var(--font-family-primary);
+  display: flex;
+  flex-direction: column;
+}
+content {
+  flex-grow: 1;
 }
 header {
   background-color: var(--color-primary-default);
@@ -12,4 +17,18 @@ header .top {
 .search {
   padding: 44px 5px;
   background: var(--color-white-darken3);
+  padding: 8px 16px;
+}
+
+.header-logo {
+  padding: 8px 0;
+}
+.main-search {
+  padding: 44px 5px;
+  background: var(--color-white-darken1);
+}
+.partners {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
