@@ -1,0 +1,72 @@
+@import url(config.css);
+
+.review-explanation-container{
+    float: left;
+    position: relative;
+    text-align: left;
+
+}
+
+.review-score-body{
+    width: calc(100% + 32px);
+    margin-bottom: 14px;
+}
+
+.review-score-subscore{
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 8px;
+    width: calc((100% - 96px)/3);
+    height: 41px;
+}
+
+.score-bar{
+    width: 250px;
+    height: 33px;
+}
+
+.score-bar-title{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    font-size: var(--font-size-small-1);
+    line-height: var(--line-height-big-1);
+    font-weight: var(--font-weight-body);
+}
+
+.score-bar-score{
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    text-align: right;
+    float: right;
+    font-size: var(--font-size-small-3);
+    line-height: var(--line-height-body);
+    font-weight: var(--font-weght-big-1);
+}
+
+.score-bar-bar{
+    display: block;
+    vertical-align: top;
+    height: 10px;
+    position: relative;
+    margin-top: 3px;
+    border-radius: 2px;
+    background-color: var(--color-secondary-lighter1);
+}
+
+.score-bar-value-84{
+    background-color: var(--color-primary-default);
+    width: 84%;
+}
+
+.out-test{
+    margin: 40px;
+}
+
+.border-cl{
+    background-color: var(--color-yellow-default);
+}
