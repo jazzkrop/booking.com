@@ -1,0 +1,25 @@
+@import url(config.css);
+
+
+body{
+    background: black;
+  }
+
+  .Input5 {
+   
+   border: var(--border-radius-big-1) var(--border-style-body) var(--color-white-default);
+   border-radius: var(--border-radius-big-1);
+   line-height: var(--line-height-big-3);
+   padding: 10px;
+   width: 375.54px;                         /*The size of Input depends on the Button  //  65% from button*/
+   color: var(--color-white-darken6);
+   font-size: var(--font-size-big-1);
+   font-weight: var(--font-weght-small);
+   
+  }
+
+  input::placeholder{
+    color: var(--color-white-darken6);
+    font-size: var(--font-size-big-1);
+    font-weight: var(--font-weght-small);
+  }
