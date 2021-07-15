@@ -1,4 +1,289 @@
-@import 'color.css';
-@import 'config.css';
+@import url('config.css');
 
-.
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol{
+	padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+html{
+	font-family: var(--font-family-primary);
+);
+}
+
+.page{
+	position: relative;
+	width: 1400px;
+	max-width: 100%;
+	padding: 0 40px;
+	margin: 0 auto;
+	background-color: var(--color-primary-default);
+}
+
+/* Search */
+.button-search{
+	font-family: var(--font-family-primary);
+	font-size: var(--font-size-big-1);
+	font-weight: var(--font-weight-big-1);
+	line-height: var(--line-height-big-3);
+	background-color: var(--color-secondary-default);
+	color: var(--color-white-default);
+	min-width: 100%;
+	padding: 5px 32px;
+	height: 52px;
+	border: none;
+	cursor: var(--cursor-pointer);
+}
+
+.button-search:hover{
+	background-color: var(--color-secondary-darken1);
+}
+/* Width buttons search - inherit width of the parents */
+
+
+/* carousel btn */
+.carousel{
+	 margin: -40px -25px 0;
+}
+
+.carousel-items{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.slider-button-left, .slider-button-right{
+	position: relative;
+	height: 32px;
+	width: 32px;
+	border: none;
+	border-radius: 50%;
+	background-color: var(--color-white-default) ;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0, 0.16);
+	cursor: var(--cursor-pointer);
+}
+
+.slider-button-left:focus, .slider-button-right:focus{
+	box-shadow: 0 0 0 3px rgba(0,113,194,.24);
+}
+
+.slider-button-left:active, .slider-button-right:active{
+	margin-top: 2px;
+}
+
+
+.carousel-next, .carousel-prev{
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	left: 50%;
+	top: 50%;
+	margin-left: -12px;
+	margin-top: -12px;
+
+}
+
+ .button-plus-minus{
+	margin: 20px;
+}
+
+.button-plus, .button-minus{
+	font-family: var(--font-family-primary);
+	font-weight: var(--font-weight-big-1);
+	font-size: var(--font-size-small-1);
+	background-color: transparent;
+	color: var(--color-secondary-default);
+	line-height: var(--line-height-big-1);
+	width: 40px;
+	height: 40px;
+	border: 1px solid var(--color-secondary-default);
+	border-radius: 2px;
+	cursor: var(--cursor-pointer);
+}
+
+.button-plus[disabled],
+.button-minus[disabled]{
+	background-color: rgba(217, 217, 217, 1);
+	border-color: rgba(217, 217, 217, 1);
+	color: var(--color-white-darken3);
+	cursor: var(--cursor-not-allowed);
+}
+
+
+.distination{
+	margin-top: 20px;
+	display: flex;
+	position: relative;
+}
+
+.distination:after{
+	position: absolute;
+	content: " ";
+	height: 1px;
+	width: 100%;
+	background-color: var(--color-secondary-default);
+	bottom: 0;
+}
+
+.distination-list{
+	padding: 0 15px;
+	line-height: 30px;
+	background-color: var(--color-white-default);
+	color: var(--color-white-darken6);
+	font-size: var(--font-size-small-2);
+	cursor: var(--cursor-pointer);
+
+}
+
+.distination-list:hover{
+	color: var(--color-secondary-default);
+}
+
+.distination-list-active{
+	background-color: var(--color-secondary-default);
+	color: var(--color-white-default);
+	padding: 0 15px;
+	line-height: 30px;
+	font-size: var(--font-size-small-2);
+	cursor: var(--cursor-pointer);
+
+}
+
+
+
+
+.routing{
+	margin-top: 15px;
+	display: flex;
+}
+
+
+.routing-list{
+	font-size: var(--font-size-small-2);
+	line-height: var(--line-height-big-1);
+	color: var(--color-white-default);
+	background-color: var(--color-white-darken5);
+	padding: 0 7px;
+	margin-left: 4px;
+	cursor: var(--cursor-pointer);
+}
+
+.routing-list:hover,.routing-list-active{
+	background-color: var(--color-secondary-default);
+	cursor: var(--cursor-pointer);
+}
+
+.routing-list-active{
+	cursor: var(--cursor-pointer);
+}
+
+.routing .routing-list:first-child{
+	margin: 0;
+}
+
+
+
+.subscribe{
+	margin: 0 5px;
+	padding: 0 15px;
+	height: 48px;
+	border: 0px;
+	border-radius: 3px;
+	font-weight: 300;
+	font-size: var(--font-size-big-1);
+	line-height: var(--line-height-big-3);
+	background-color: var(--color-secondary-default) ;
+	color: var(--color-white-default);
+	cursor: var(--cursor-pointer);
+
+}
+
+.listen-property{
+	border: 1px solid var(--color-white-default);
+	border-radius: 3px;
+	font-size: var(--font-size-small-2) ;
+	line-height: 26px;
+	padding: 0 15px;
+	margin: 0 10px;
+	background-color: var(--color-primary-default);
+	color: var(--color-white-default);
+}
+
+.listen-property:hover{
+	background-color: var(--color-white-darken7);
+	cursor: var(--cursor-pointer);
+}
