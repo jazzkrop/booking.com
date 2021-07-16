@@ -6,7 +6,7 @@ body{
 .input-search{
     width: 290px;
     height: 52px;
-    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-default);
     border-radius: var(--border-radius-small-2);
     background-image: var(--bed);
     background-position: bottom 18px left 15px;
@@ -15,7 +15,7 @@ body{
 }
 
 .input-search:hover{
-    border: var(--border-width-light) var(--border-style-body) var(--color-gray-darken1);
+    border: var(--border-width-light) var(--border-style-body) var(--color-brown-darken1);
     border-radius: var(--border-radius-small-2);
 }
 
@@ -24,3 +24,15 @@ body{
     border-radius: var(--border-radius-small-2);
     outline: transparent;
 }
+input[type="search"]::-webkit-search-cancel-button { /* псевдо что-то, что отвечает за кнопку очистки */
+        -webkit-appearance: none; /* без сброса оформление не применится */
+        width: 20px; /* размеры кастомного крестика */
+    
+        height: 20px;
+    
+        background: var(--close-btn) no-repeat; /* новый вид крестика */
+    
+        margin-right: 15px; /* его даже можно позиционировать */
+    
+    }
+    
