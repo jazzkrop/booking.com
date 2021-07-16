@@ -1,0 +1,37 @@
+@import url(config.css);
+/*
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}*/
+
+body{
+background: black;
+}
+.input-people{
+    width: 280.27px;
+    height: 52px;
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border-radius: var(--border-radius-small-2);
+    background-image: var(--man);
+    background-position: top 16px left 16px;
+    background-repeat: no-repeat;
+    padding: 0px 40px 0px 46px;
+}
+
+.input-people::placeholder{
+    font-size: var(--font-size-small-1);
+    font-weight: var(--font-weght-big-1);
+    color: var(--color-primary-darken1);
+    line-height: var(--line-height-big-1);
+}
+
+.input-people:hover{
+    border: var(--border-width-light) var(--border-style-body) var(--color-brown-default);
+    border-radius: var(--border-radius-small-2);
+}
+
+.input-people:focus{
+    outline: transparent;
+}
