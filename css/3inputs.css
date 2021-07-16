@@ -1,0 +1,40 @@
+@import url(config.css);
+
+body {
+    background-color: orange;
+}
+
+select {
+    border: var(--border-radius-small-1) solid var(--color-white-default);
+    width: 100%;
+    font-size: var(--font-size-small-1);
+    line-height: var(--line-height-big-1);
+    color: var(--color-white-darken6);
+    appearance: none;
+    background: url(https://cf.bstatic.com/static/img/cross_product_index/toggle/fb6f63d62231f9fe552d79b5448620b2e63c726e.svg) no-repeat 95% 50%;
+    font-weight: normal;
+    padding: 8px;
+    padding-right: 20px;
+    border-radius: 2px;
+    height: 38px;
+}
+
+.number {
+    background: var(--color-white-default);
+    width: 232px;
+}
+
+.number2 {
+    float: left;
+    background: var(--color-white-default);
+    width: 114.5px;
+    margin-top: 4px;
+}
+
+.number3 {
+    background: var(--color-white-default);
+    float: left;
+    width: 114.4px;
+    margin-left: 3px;
+    margin-top: 4px;
+}
