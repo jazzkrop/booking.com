@@ -1,0 +1,27 @@
+@import url(config.css);
+
+
+.check-out-date{
+    width: 232px;
+    height: 36px;
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border-radius: var(--border-radius-small-2);
+    background-image: var(--calendar-small), var(--pointer-down);
+    background-size: 18px, 16px;
+    background-position:bottom 9px  left 10px, right 8px bottom 10px;
+    padding-left: 36px;
+    background-repeat: no-repeat;
+}
+
+
+.check-out-date::placeholder{
+    font-size: var(--font-size-small-1);
+    font-weight: var(--font-weight-body);
+    color: var(--color-black-default);
+    line-height: var(--line-height-big-1);
+}
+
+
+.check-out-date:focus{
+    outline: transparent;
+}
