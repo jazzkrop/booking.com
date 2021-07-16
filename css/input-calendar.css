@@ -8,11 +8,13 @@
 
 body{
     
+    background-color: black;
+    
 }
 .input-calendar{
     width: 204px;
     height: 52px;
-    border: var(--border-width-light) var(--border-style-body) var(--color-white-primary-default);
+    border: var(--border-width-light) var(--border-style-body) var(--color-white-default);
     border-radius: var(--border-radius-small-2);
     background-image: var(--calendar);
     background-size: 20px;
@@ -29,12 +31,12 @@ body{
 }
 
 .input-calendar:hover{
-    border: var(--border-width-light) var(--border-style-body) var(--color-black-default);
+    box-sizing: border-box;
+    border: var(--border-width-light) var(--border-style-body) var(--color-brown-darken1);
     border-radius: var(--border-radius-small-2);
 }
 
 .input-calendar:focus{
-    
     outline: transparent;
 }
 
