@@ -4,20 +4,17 @@
     float: left;
     position: relative;
     text-align: left;
-
 }
 
 .review-score-body{
-    width: calc(100% + 32px);
-    margin-bottom: 14px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .review-score-subscore{
-    display: inline-block;
-    margin-right: 32px;
-    margin-bottom: 8px;
-    width: calc((100% - 96px)/3);
-    height: 41px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .score-bar{
@@ -37,8 +34,16 @@
     font-weight: var(--font-weight-body);
 }
 
+.s-b-t-danger{
+    color: var(--color-red-dark1);
+}
+
+.s-b-t-success {
+    color: var(--color-success-dark1);
+}
+
 .score-bar-score{
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     width: 30px;
     text-align: right;
@@ -49,24 +54,90 @@
 }
 
 .score-bar-bar{
-    display: block;
+    display: flex;
     vertical-align: top;
     height: 10px;
     position: relative;
-    margin-top: 3px;
     border-radius: 2px;
     background-color: var(--color-secondary-lighter1);
+    width: 82%;
+    margin-right: 20%;
+    margin-top: 5px;
 }
 
+.score-bar-value-25{
+    background-color: var(--color-primary-default);
+    width: 25%;
+}
+.score-bar-value-45{
+    background-color: var(--color-primary-default);
+    width: 45%;
+}
+.score-bar-value-55{
+    background-color: var(--color-primary-default);
+    width: 55%;
+}
+.score-bar-value-60{
+    background-color: var(--color-primary-default);
+    width: 60%;
+}
+.score-bar-value-70{
+    background-color: var(--color-primary-default);
+    width: 70%;
+}
+.score-bar-value-79{
+    background-color: var(--color-primary-default);
+    width: 79%;
+}
 .score-bar-value-84{
     background-color: var(--color-primary-default);
     width: 84%;
 }
-
-.out-test{
-    margin: 40px;
+.score-bar-value-89{
+    background-color: var(--color-primary-default);
+    width: 89%;
+}
+.score-bar-value-91{
+    background-color: var(--color-primary-default);
+    width: 91%;
+}
+.score-bar-value-92{
+    background-color: var(--color-primary-default);
+    width: 92%;
+}
+.score-bar-value-95{
+    background-color: var(--color-primary-default);
+    width: 95%;
 }
 
-.border-cl{
-    background-color: var(--color-yellow-default);
+.score-bar-bar-good{
+    display: flex;
+    vertical-align: top;
+    height: 10px;
+    position: relative;
+    border-radius: 2px;
+    background-color: var(--color-success-light1);
+    width: 82%;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+.score-bar-bar-bad{
+    display: flex;
+    vertical-align: top;
+    height: 10px;
+    position: relative;
+    border-radius: 2px;
+    background-color: var(--color-red-light1);
+    width: 82%;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+
+.score-bar-value-good-95{
+    background-color: var(--color-success-dark1);
+    width: 95%;
+}
+.score-bar-value-bad-23{
+    background-color: var(--color-red-dark1);
+    width: 23%;
 }
