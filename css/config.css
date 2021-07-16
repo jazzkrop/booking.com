@@ -7,8 +7,14 @@
   --color-secondary-darken1: rgba(0, 89, 153, 1);
   --color-secondary-darken2: rgba(31, 78, 143, 1);
   --color-secondary-darken3: rgba(0, 113, 194, 0.06);
+  --color-secondary-lighter1: rgba(235, 243, 255, 1);
+
+  --color-success-light1: rgba(231, 253, 232, 1);
+  --color-success-dark1: rgba(0, 128, 13, 1);
 
   --color-red-default: rgba(163, 0, 0, 1);
+  --color-red-dark1: rgba(204, 2, 2, 1);
+  --color-red-light1: rgba(255, 235, 234, 1);
 
   --color-brown-default: rgba(188, 91, 1, 1);
   --color-brown-darken1: rgba(146, 62, 1, 1);
