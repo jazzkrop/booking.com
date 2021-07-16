@@ -1,0 +1,20 @@
+@import url(config.css);
+
+select {
+    border: var(--border-radius-small-1) solid var(--color-white-darken6);
+    border-radius: var(--border-radius-small-2);
+    border-width: var(--border-width-light);
+    border-style: solid;
+    height: 22px;
+    width: 39.33px;
+}
+
+.number {
+    border-radius: 0%;
+    float:left;
+}
+
+.number2 {
+    float: left;
+    margin-left: 10px;
+}
