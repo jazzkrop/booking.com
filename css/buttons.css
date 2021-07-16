@@ -116,18 +116,15 @@ html{
 
 /* carousel btn */
 .carousel{
-	 margin: -40px -25px 0;
+	max-width: 1400px;
+	min-width: 150px;
+	position: relative;
 }
 
-.carousel-items{
-	display: flex;
-	justify-content: space-between;
-}
 
 
 
 .slider-button-left, .slider-button-right{
-	position: relative;
 	height: 32px;
 	width: 32px;
 	border: none;
@@ -135,6 +132,15 @@ html{
 	background-color: var(--color-white-default) ;
 	box-shadow: 0 2px 8px 0 rgba(0,0,0, 0.16);
 	cursor: var(--cursor-pointer);
+}
+
+.slider-button-left{
+	position: absolute;
+	left: 0;
+}
+.slider-button-right{
+	position: absolute;
+	right: 0;
 }
 
 .slider-button-left:focus, .slider-button-right:focus{
@@ -175,6 +181,15 @@ html{
 	cursor: var(--cursor-pointer);
 }
 
+.button-plus:hover, .button-minus:hover{
+	background-color: var(--color-secondary-darken3) ;
+}
+
+.button-plus:active,
+.button-minus:active{
+	box-shadow: 0 0 0 3px rgba(0,113,194, 0.24);
+}
+
 .button-plus[disabled],
 .button-minus[disabled]{
 	background-color: rgba(217, 217, 217, 1);
@@ -183,6 +198,25 @@ html{
 	cursor: var(--cursor-not-allowed);
 }
 
+.sign-main{
+    padding: 8px 16px;
+    border: 1px solid var(--color-secondary-default);
+    border-radius: 2px;
+    line-height: var(--line-height-big-1);
+    font-weight: var(--font-weight-big-3);
+    font-size: var(--font-size-small-1);
+    background-color: transparent;
+    color: var(--color-secondary-default);
+    cursor: var(--cursor-pointer);
+}
+
+.sign-main:hover{
+    background-color: var(--color-secondary-darken3);
+}
+
+.sign-main:active{
+    box-shadow: 0 0 0 3px rgba(0,113,194,.24);
+}
 
 .distination{
 	margin-top: 20px;
@@ -200,6 +234,7 @@ html{
 }
 
 .distination-list{
+	white-space: nowrap;
 	padding: 0 15px;
 	line-height: 30px;
 	background-color: var(--color-white-default);
@@ -273,6 +308,7 @@ html{
 }
 
 .listen-property{
+	white-space: nowrap;
 	border: 1px solid var(--color-white-default);
 	border-radius: 3px;
 	font-size: var(--font-size-small-2) ;
