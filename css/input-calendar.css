@@ -7,7 +7,7 @@
 }
 
 body{
-    background: black;
+    
 }
 .input-calendar{
     width: 204px;
@@ -21,7 +21,7 @@ body{
     background-repeat: no-repeat;
 }
 
-input::placeholder{
+.input-calendar::placeholder{
     font-size: var(--font-size-small-1);
     font-weight: var(--font-weght-big-1);
     color: var(--color-primary-darken1);
@@ -29,13 +29,12 @@ input::placeholder{
 }
 
 .input-calendar:hover{
-    border: var(--border-width-light) var(--border-style-body) var(--color-gray-darken1);
+    border: var(--border-width-light) var(--border-style-body) var(--color-black-default);
     border-radius: var(--border-radius-small-2);
 }
 
 .input-calendar:focus{
-    border: var(--border-width-light) var(--border-style-body) var(--color-gray-darken1);
-    border-radius: var(--border-radius-small-2);
+    
     outline: transparent;
 }
 
