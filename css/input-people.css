@@ -28,7 +28,8 @@ background: black;
 }
 
 .input-people:hover{
-    border: var(--border-width-light) var(--border-style-body) var(--color-brown-default);
+    border: var(--border-style-body) var(--border-width-light) 
+    var(--color-brown-default);
     border-radius: var(--border-radius-small-2);
 }
 
