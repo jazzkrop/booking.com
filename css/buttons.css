@@ -182,7 +182,7 @@ html{
 }
 
 .button-plus:hover, .button-minus:hover{
-	background-color: var(--color-secondary-darken3) ;
+	background-color: var(--color-secondary-t1-default) ;
 }
 
 .button-plus:active,
@@ -194,7 +194,7 @@ html{
 .button-minus[disabled]{
 	background-color: rgba(217, 217, 217, 1);
 	border-color: rgba(217, 217, 217, 1);
-	color: var(--color-white-darken3);
+	color: var(--coloe-gray-darken1);
 	cursor: var(--cursor-not-allowed);
 }
 
@@ -211,7 +211,7 @@ html{
 }
 
 .sign-main:hover{
-    background-color: var(--color-secondary-darken3);
+    background-color: var(--color-secondary-t1-default);
 }
 
 .sign-main:active{
@@ -271,7 +271,7 @@ html{
 	font-size: var(--font-size-small-2);
 	line-height: var(--line-height-big-1);
 	color: var(--color-white-default);
-	background-color: var(--color-white-darken5);
+	background-color: var(--color-gray-darken4);
 	padding: 0 7px;
 	margin-left: 4px;
 	cursor: var(--cursor-pointer);
@@ -320,6 +320,6 @@ html{
 }
 
 .listen-property:hover{
-	background-color: var(--color-white-darken7);
+	background-color: var(--color-white-t3-default);
 	cursor: var(--cursor-pointer);
 }

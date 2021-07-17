@@ -1,39 +1,60 @@
 :root {
   /* colors */
-  --color-primary-default: rgba(0, 53, 128, 1);
-  --color-primary-darken1: rgba(0, 34, 79, 1);
+  /* Primary */
+  --color-primary-default: rgba(0, 53, 128, 1); /* #003580 */
+  --color-primary-darken1: rgba(0, 34, 79, 1); /* #00224f */
 
-  --color-secondary-default: rgba(0, 113, 194, 1);
-  --color-secondary-darken1: rgba(0, 89, 153, 1);
+  /* secondary */
+
+  --color-secondary-lighten3: rgba(235, 243, 255, 1); /* #ebf3ff */
+  --color-secondary-lighten2: rgba(163, 215, 252, 1); /* #a3d7fc */ /* border propert */
+  --color-secondary-lighten1: rgba(91, 186, 255, 1); /* #5bbaff */
+  --color-secondary-default: rgba(0, 113, 194, 1); /* #0071c2 */
+  --color-secondary-darken1: rgba(0, 89, 153, 1); /* background header */
   --color-secondary-darken2: rgba(31, 78, 143, 1);
-  --color-secondary-darken3: rgba(0, 113, 194, 0.06);
-  --color-secondary-lighter1: rgba(235, 243, 255, 1);
 
-  --color-success-light1: rgba(231, 253, 232, 1);
-  --color-success-dark1: rgba(0, 128, 13, 1);
+  /* secondary-transition */
+  --color-secondary-t1-default: rgba(0, 113, 194, 0.06);
 
-  --color-red-default: rgba(163, 0, 0, 1);
-  --color-red-dark1: rgba(204, 2, 2, 1);
-  --color-red-light1: rgba(255, 235, 234, 1);
+  /* success */
+  --color-success-lighter1: rgba(231, 253, 233, 1); /* e7fde9 */
+  --color-success-default: rgba(0, 128, 9, 1); /* #008009 */
 
-  --color-brown-default: rgba(188, 91, 1, 1);
+  /* danger */
+  --color-danger-lighten2: rgba(255, 240, 224, 1); /* #fff0e0 */
+  --color-danger-lighten1: rgba(255, 235, 234, 1); /* #ffebea */
+  --color-danger-default:  rgba(204, 2, 2, 1); /* #cc0202 */
+  --color-danger-darken1: rgba(163, 0, 0, 1); /* #a30000 */
+
+  /* brown */
+  --color-brown-lighten2: rgba(225, 224, 138, 1); /* #ffe08a */
+  --color-brown-lighten1: rgba(205, 137, 0, 1); /* #ffe08a */
+  --color-brown-default: rgba(188, 91, 1, 1); /* #bc5b01 */
   --color-brown-darken1: rgba(146, 62, 1, 1);
 
-  --color-yellow-default: rgba(254, 187, 2, 1);
+  /* warning */
+  --color-warning-default: rgba(254, 187, 2, 1); /* #febb02 */
+  --color-warning-lighten1: rgba(255, 128, 0, 1); /* #ff8000 */
 
+  /* Color gray */
+  --color-gray-default: rgba(217, 217, 217, 1); /* #d9d9d9 */
+  --coloe-gray-darken1: rgba(189, 189, 189, 1); /* #bdbdbd */
+  --color-gray-darken2: rgba(179, 179, 179, 1); /* #b3b3b3 */ /* plus/minus default */
+  --color-gray-darken3: rgba(165, 165, 165, 1); /* #a5a5a5 */ /* distination description */
+  --color-gray-darken4: rgba(131, 131, 131, 1); /* #838383 (1..9) */
+  --color-gray-darken5: rgba(115, 115, 115, 1); /* #737373 destination text */
+  --color-gray-darken6: rgba(51,51,51,1); /* #333333 */
+
+  /* white */
   --color-white-default: rgba(255, 255, 255, 1);
-  --color-white-darken1: rgba(245, 245, 245, 1);
-  --color-white-darken2: rgba(230, 230, 230, 1);
-  --color-white-darken3: rgba(189, 189, 189, 1);
-  --color-white-darken4: rgba(165, 165, 165, 1);
-  --color-white-darken5: rgba(131, 131, 131, 1);
-  --color-white-darken6: rgba(107, 107, 107, 1);
-  --color-white-darken7: rgba(255, 255, 255, 0.2);
-  --color-white-darken8: rgba(255, 255, 255, 0.12);
-  --color-white-darken9: rgba(255, 255, 255, 0.06);
-  --color-white-darken10: rgba(51, 51, 51, 1);
+  --color-white-t1-default: rgba(255, 255, 255, 0.06); /* car rentals flights... */
+  --color-white-t2-default: rgba(255, 255, 255, 0.12); /* uah language ? list your property */
+  --color-white-t3-default: rgba(255, 255, 255, 0.2);  /* list your property footer */
 
+
+  /* Color black */
   --color-black-default: rgba(0, 0, 0, 1);
+  --color-black-t1-default: rgba(0,0,0,.06);
 
   /* borders */
   --border-radius-none: 0px;

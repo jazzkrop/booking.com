@@ -35,11 +35,11 @@
 }
 
 .s-b-t-danger {
-  color: var(--color-red-dark1);
+  color: var(--color-danger-default);
 }
 
 .s-b-t-success {
-  color: var(--color-success-dark1);
+  color: var(--color-success-default);
 }
 
 .score-bar-score {
@@ -59,7 +59,7 @@
   height: 10px;
   position: relative;
   border-radius: 2px;
-  background-color: var(--color-secondary-lighter1);
+  background-color: var(--color-secondary-lighten3);
   width: 82%;
   margin-right: 20%;
   margin-top: 5px;
@@ -116,7 +116,7 @@
   height: 10px;
   position: relative;
   border-radius: 2px;
-  background-color: var(--color-success-light1);
+  background-color: var(--color-success-lighter1);
   width: 82%;
   margin-right: 20%;
   margin-top: 5px;
@@ -127,17 +127,17 @@
   height: 10px;
   position: relative;
   border-radius: 2px;
-  background-color: var(--color-red-light1);
+  background-color: var(--color-danger-lighten1);
   width: 82%;
   margin-right: 20%;
   margin-top: 5px;
 }
 
 .score-bar-value-good-95 {
-  background-color: var(--color-success-dark1);
+  background-color: var(--color-success-default);
   width: 95%;
 }
 .score-bar-value-bad-23 {
-  background-color: var(--color-red-dark1);
+  background-color: var(--color-danger-default);
   width: 23%;
 }

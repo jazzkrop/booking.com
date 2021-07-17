@@ -22,7 +22,7 @@
 .input-search-2::placeholder{
     font-size: var(--font-size-small-1);
     font-weight: var(--font-weight-body);
-    color: var(--color-white-darken4);
+    color: var(--color-gray-darken3);
     line-height: var(--line-height-big-1);
 }
 
