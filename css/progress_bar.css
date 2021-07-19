@@ -50,7 +50,7 @@
   float: right;
   font-size: var(--font-size-small-3);
   line-height: var(--line-height-body);
-  font-weight: var(--font-weght-big-1);
+  font-weight: var(--font-weight-big-1);
 }
 
 .score-bar-bar {
