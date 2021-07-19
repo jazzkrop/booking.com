@@ -1,0 +1,18 @@
+@import url(config.css);
+
+.bui-review-score {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px 5px 5px 0px;
+  background-color: var(--color-secondary-darken2);
+  color: var(--color-white-default);
+  display: flex;
+  justify-content: center;
+  vertical-align: baseline;
+  -webkit-box-pack: center;
+  align-items: center;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-small-1);
+  line-height: var(--line-height-big-1);
+  font-weight: var(--font-weight-big-1);
+}
