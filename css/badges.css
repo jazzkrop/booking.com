@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   vertical-align: baseline;
-  -webkit-box-pack: center;
   align-items: center;
   font-family: var(--font-family-primary);
   font-size: var(--font-size-small-1);
