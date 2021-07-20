@@ -1,0 +1,28 @@
+{
+  "name": "booking.com",
+  "version": "1.0.0",
+  "description": "@copyright GavrikSystems",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazzkrop/booking.com.git"
+  },
+  "author": "GavriksSystems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazzkrop/booking.com/issues"
+  },
+  "homepage": "https://github.com/jazzkrop/booking.com#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}
