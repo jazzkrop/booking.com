@@ -7,7 +7,12 @@
   /* secondary */
 
   --color-secondary-lighten3: rgba(235, 243, 255, 1); /* #ebf3ff */
-  --color-secondary-lighten2: rgba(163, 215, 252, 1); /* #a3d7fc */ /* border propert */
+  --color-secondary-lighten2: rgba(
+    163,
+    215,
+    252,
+    1
+  ); /* #a3d7fc */ /* border propert */
   --color-secondary-lighten1: rgba(91, 186, 255, 1); /* #5bbaff */
   --color-secondary-default: rgba(0, 113, 194, 1); /* #0071c2 */
   --color-secondary-darken1: rgba(0, 89, 153, 1); /* background header */
@@ -23,7 +28,7 @@
   /* danger */
   --color-danger-lighten2: rgba(255, 240, 224, 1); /* #fff0e0 */
   --color-danger-lighten1: rgba(255, 235, 234, 1); /* #ffebea */
-  --color-danger-default:  rgba(204, 2, 2, 1); /* #cc0202 */
+  --color-danger-default: rgba(204, 2, 2, 1); /* #cc0202 */
   --color-danger-darken1: rgba(163, 0, 0, 1); /* #a30000 */
 
   /* brown */
@@ -43,18 +48,32 @@
   --color-gray-darken3: rgba(165, 165, 165, 1); /* #a5a5a5 */
   --color-gray-darken4: rgba(131, 131, 131, 1); /* #838383 */
   --color-gray-darken5: rgba(115, 115, 115, 1); /* #737373 */
-  --color-gray-darken6: rgba(51,51,51,1); /* #333333 */
+  --color-gray-darken6: rgba(51, 51, 51, 1); /* #333333 */
 
   /* white */
   --color-white-default: rgba(255, 255, 255, 1);
-  --color-white-t1-default: rgba(255, 255, 255, 0.06); /* car rentals flights... */
-  --color-white-t2-default: rgba(255, 255, 255, 0.12); /* uah language ? list your property */
-  --color-white-t3-default: rgba(255, 255, 255, 0.2);  /* list your property footer */
-
+  --color-white-t1-default: rgba(
+    255,
+    255,
+    255,
+    0.06
+  ); /* car rentals flights... */
+  --color-white-t2-default: rgba(
+    255,
+    255,
+    255,
+    0.12
+  ); /* uah language ? list your property */
+  --color-white-t3-default: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* list your property footer */
 
   /* Color black */
   --color-black-default: rgba(0, 0, 0, 1);
-  --color-black-t1-default: rgba(0,0,0,.06);
+  --color-black-t1-default: rgba(0, 0, 0, 0.06);
 
   /* borders-radius */
   --br-1: 5.8px;
@@ -65,15 +84,16 @@
   --br-6: 0px;
 
   /* border-width */
-  --bw-3: 3px;
+  --bw-1: 3px;
   --bw-2: 2px;
-  --bw-1: 1px;
+  --bw-3: 1px;
 
   /* border-style */
   --bs-solid: solid;
 
   /* font-family */
-  --ff-default: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  --ff-default: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
 
   /*--ff-BMSF: BlinkMacSystemFont;*/
   /*--ff-AS: -apple-system;*/
@@ -103,7 +123,6 @@
   --fs-caption1: 0.813rem;
   --fs-caption2: 0.75rem;
 
-
   /* font-weight */
   --fw-thin: 100;
   --fw-normal: 400;
@@ -131,78 +150,77 @@
   --cursor-not-allowed: not-allowed;
 
   /* logos */
-  --logo-booking: url('/img/booking.com.png');
-  --logo-priceline: url('/img/priceline.com.png');
-  --logo-kayak: url('/img/kayak.png');
-  --logo-agoda: url('/img/agoda.png');
-  --logo-rentalcars: url('/img/rentalcars.png');
-  --logo-opentable: url('/img/opentable.png');
+  --logo-booking: url("/img/booking.com.png");
+  --logo-priceline: url("/img/priceline.com.png");
+  --logo-kayak: url("/img/kayak.png");
+  --logo-agoda: url("/img/agoda.png");
+  --logo-rentalcars: url("/img/rentalcars.png");
+  --logo-opentable: url("/img/opentable.png");
 
   /* icons */
-  --apartment: 'M2.75 12h18.5c.69 0 1.25.56 1.25 1.25V18l.75-.75H.75l.75.75v-4.75c0-.69.56-1.25 1.25-1.25zm0-1.5A2.75 2.75 0 0 0 0 13.25V18c0 .414.336.75.75.75h22.5A.75.75 0 0 0 24 18v-4.75a2.75 2.75 0 0 0-2.75-2.75H2.75zM0 18v3a.75.75 0 0 0 1.5 0v-3A.75.75 0 0 0 0 18zm22.5 0v3a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0zm-.75-6.75V4.5a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 2.25 4.5v6.75a.75.75 0 0 0 1.5 0V4.5a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 0 1.5 0zm-13.25-3h7a.25.25 0 0 1 .25.25v2.75l.75-.75h-9l.75.75V8.5a.25.25 0 0 1 .25-.25zm0-1.5A1.75 1.75 0 0 0 6.75 8.5v2.75c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V8.5a1.75 1.75 0 0 0-1.75-1.75h-7z';
-  --air-tickets: 'M20.505 7.5l-15.266.022.672.415-1.1-2.2a.75.75 0 0 0-.638-.414l-2.293-.1C.82 5.228-.003 6.06.003 7.083c.002.243.051.484.146.709l2.072 4.68a2.947 2.947 0 0 0 2.701 1.778h4.043l-.676-1.075-2.484 5.168A1.831 1.831 0 0 0 7.449 21h2.099a1.85 1.85 0 0 0 1.419-.664l5.165-6.363-.582.277h4.956c1.82.09 3.399-1.341 3.49-3.198l.004-.134a3.426 3.426 0 0 0-3.44-3.419l-.074.001zm.02 1.5h.042a1.924 1.924 0 0 1 1.933 1.914l-.002.065a1.866 1.866 0 0 1-1.955 1.772l-4.993-.001a.75.75 0 0 0-.582.277l-5.16 6.355a.346.346 0 0 1-.26.118h-2.1a.336.336 0 0 1-.3-.49l2.493-5.185a.75.75 0 0 0-.676-1.075H4.924a1.45 1.45 0 0 1-1.328-.878l-2.07-4.676a.35.35 0 0 1 .326-.474l2.255.1-.638-.415 1.1 2.2a.75.75 0 0 0 .672.415L20.507 9zM16.323 7.76l-2.992-4.02A1.851 1.851 0 0 0 11.85 3H9.783a1.85 1.85 0 0 0-1.654 2.672l1.439 2.91a.75.75 0 0 0 1.344-.664L9.472 5.007a.351.351 0 0 1 .312-.507h2.066a.35.35 0 0 1 .279.14l2.99 4.017a.75.75 0 1 0 1.203-.896z';
-  --car-rental: 'M21.684 9.443l-1.7-3.79c-.42-1.128-1.542-1.905-2.794-1.903H6.809a2.999 2.999 0 0 0-2.811 1.947L2.316 9.443a.75.75 0 1 0 1.368.614l1.7-3.79c.238-.63.798-1.018 1.424-1.017h10.383a1.5 1.5 0 0 1 1.407.973l1.718 3.834a.75.75 0 1 0 1.368-.614zM.75 16.468V18a2.25 2.25 0 0 0 4.5 0v-1.5a.75.75 0 0 0-1.5 0V18a.75.75 0 0 1-1.5 0v-1.532a.75.75 0 0 0-1.5 0zm21 0V18a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 0-1.5 0V18a2.25 2.25 0 0 0 4.5 0v-1.532a.75.75 0 0 0-1.5 0zM19.875 13.5a.375.375 0 0 1-.375-.375.75.75 0 0 0 1.5 0c0-.621-.504-1.125-1.125-1.125a.75.75 0 0 0 0 1.5zm.375-.375a.375.375 0 0 1-.375.375.75.75 0 0 0 0-1.5c-.621 0-1.125.504-1.125 1.125a.75.75 0 0 0 1.5 0zm-.375-.375c.207 0 .375.168.375.375a.75.75 0 0 0-1.5 0c0 .621.504 1.125 1.125 1.125a.75.75 0 0 0 0-1.5zm-.375.375c0-.207.168-.375.375-.375a.75.75 0 0 0 0 1.5c.621 0 1.125-.504 1.125-1.125a.75.75 0 0 0-1.5 0zM4.125 12C3.504 12 3 12.504 3 13.125a.75.75 0 0 0 1.5 0 .375.375 0 0 1-.375.375.75.75 0 0 0 0-1.5zm1.125 1.125c0-.621-.504-1.125-1.125-1.125a.75.75 0 0 0 0 1.5.375.375 0 0 1-.375-.375.75.75 0 0 0 1.5 0zM4.125 14.25c.621 0 1.125-.504 1.125-1.125a.75.75 0 0 0-1.5 0c0-.207.168-.375.375-.375a.75.75 0 0 0 0 1.5zM3 13.125c0 .621.504 1.125 1.125 1.125a.75.75 0 0 0 0-1.5c.207 0 .375.168.375.375a.75.75 0 0 0-1.5 0zM2.75 10.5h18.5c.69 0 1.25.56 1.25 1.25v3.75a.25.25 0 0 1-.25.25H1.75a.25.25 0 0 1-.25-.25v-3.75c0-.69.56-1.25 1.25-1.25zm0-1.5A2.75 2.75 0 0 0 0 11.75v3.75c0 .966.784 1.75 1.75 1.75h20.5A1.75 1.75 0 0 0 24 15.5v-3.75A2.75 2.75 0 0 0 21.25 9H2.75z';
-  --leisure-options: 'M13.5 3a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM15 3a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM21 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm-9-3.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm10.066 1.277a7.5 7.5 0 0 1-3.077 2.05.75.75 0 0 0 .498 1.415 9 9 0 0 0 3.693-2.46.75.75 0 1 0-1.114-1.005zm1.798-6.466c.177.922.183 1.869.015 2.792a.75.75 0 1 0 1.476.268c.2-1.106.194-2.24-.019-3.344a.75.75 0 1 0-1.472.284zm-5.337-5.784a7.5 7.5 0 0 1 3.54 2.196.75.75 0 0 0 1.113-1.004 9.002 9.002 0 0 0-4.247-2.636.75.75 0 1 0-.406 1.444zM6.434 6.223a7.5 7.5 0 0 1 3.539-2.196.75.75 0 1 0-.406-1.444A9.001 9.001 0 0 0 5.32 5.219a.75.75 0 0 0 1.114 1.004zM4.636 12.69a7.602 7.602 0 0 1 0-2.878.75.75 0 1 0-1.472-.284 9.102 9.102 0 0 0 0 3.446.75.75 0 0 0 1.472-.284zm4.876 5.639a7.517 7.517 0 0 1-3.035-2.005.75.75 0 0 0-1.106 1.014 9.017 9.017 0 0 0 3.641 2.405.75.75 0 1 0 .5-1.414zM7.31 21.872A1.5 1.5 0 0 0 8.672 24h6.656a1.5 1.5 0 0 0 1.362-2.128l-3.314-8.217c-.361-.785-1.252-1.114-2.005-.767a1.5 1.5 0 0 0-.733.734l-3.343 8.283zm1.377.595l3.328-8.25-.015.033 3.313 8.217.015.033H8.672z';
-  --taxi-to-from-airport: 'M21.75 15.5V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zm-16.5 0V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zM3 8.75h3a.75.75 0 0 0 0-1.5H3a.75.75 0 0 0 0 1.5zm6.75 6.75v-6a.75.75 0 0 1 1.5 0v6a.75.75 0 0 0 1.5 0v-6a2.25 2.25 0 0 0-4.5 0v6a.75.75 0 0 0 1.5 0zM9 13.25h3a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5zm5.304-4.971l3 7.5a.75.75 0 0 0 1.392-.557l-3-7.5a.75.75 0 0 0-1.392.557zm3-.558l-3 7.5a.75.75 0 0 0 1.392.557l3-7.5a.75.75 0 0 0-1.392-.557zM.75 5h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zm0 15h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5z';
-  --question-mark: 'M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z';
-  --bell: 'M9.28 21.961a2.837 2.837 0 0 0 5.445 0 .75.75 0 1 0-1.44-.422 1.337 1.337 0 0 1-2.565 0 .75.75 0 1 0-1.44.422zM12.75 3V.75a.75.75 0 0 0-1.5 0V3a.75.75 0 0 0 1.5 0zm-.75.75a6.75 6.75 0 0 1 6.75 6.75c0 3.154.29 5.436.785 6.994.323 1.02.684 1.59.995 1.84L21 18H3l.59 1.212c.248-.315.572-.958.88-2 .49-1.66.78-3.872.78-6.712A6.75 6.75 0 0 1 12 3.75zm0-1.5a8.25 8.25 0 0 0-8.25 8.25c0 2.702-.272 4.772-.72 6.288-.254.864-.493 1.336-.62 1.5A.75.75 0 0 0 3 19.5h18c.708 0 1.022-.892.47-1.335.019.016-.008-.015-.07-.113-.14-.223-.29-.553-.435-1.012-.443-1.396-.715-3.529-.715-6.54A8.25 8.25 0 0 0 12 2.25z';
-  --small-search: url('../img/search-small.png');
-  --calendar: url('../img/calendar.png');
-  --calendar-small: url('../img/calendar-small.png');
-  --bed: url('https://cf.bstatic.com/static/img/cross_product_index/accommodation/07ca5cacc9d77a7b50ca3c424ecd606114d9be75.svg');
-  --man: 'https://cf.bstatic.com/static/img/cross_product_index/guest/b2e5f2aa32b71ca0fc66aa671e4e958bcd69b7d0.svg';
-  --pointer-up-down: 'https://cf.bstatic.com/static/img/cross_product_index/toggle/fb6f63d62231f9fe552d79b5448620b2e63c726e.svg';
-  --pointer-down: url('../img/pointerdown.png');
-  --info: 'M14.25 15.75h-.75a.75.75 0 0 1-.75-.75v-3.75a1.5 1.5 0 0 0-1.5-1.5h-.75a.75.75 0 0 0 0 1.5h.75V15a2.25 2.25 0 0 0 2.25 2.25h.75a.75.75 0 0 0 0-1.5zM11.625 6a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z';
-  --pointer-left: 'M14.55 18a.74.74 0 0 1-.53-.22l-5-5A1.08 1.08 0 0 1 8.7 12a1.1 1.1 0 0 1 .3-.78l5-5a.75.75 0 0 1 1.06 0 .74.74 0 0 1 0 1.06L10.36 12l4.72 4.72a.74.74 0 0 1 0 1.06.73.73 0 0 1-.53.22zm-4.47-5.72zm0-.57z';
-  --pointer-right: 'M9.45 6c.2 0 .39.078.53.22l5 5c.208.206.323.487.32.78a1.1 1.1 0 0 1-.32.78l-5 5a.75.75 0 0 1-1.06 0 .74.74 0 0 1 0-1.06L13.64 12 8.92 7.28a.74.74 0 0 1 0-1.06.73.73 0 0 1 .53-.22zm4.47 5.72zm0 .57z';
-  --criss-cross: 'M13.31,12l8-8A.93.93,0,0,0,20,2.66l-8,8-8-8A.93.93,0,0,0,2.66,4l8,8-8,8a.94.94,0,0,0,0,1.32.94.94,0,0,0,1.32,0l8-8,8,8a.94.94,0,0,0,1.32,0,.94.94,0,0,0,0-1.32Z';
-  --map: 'M15 8.25a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm1.5 0a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zM12 1.5a6.75 6.75 0 0 1 6.75 6.75c0 2.537-3.537 9.406-6.75 14.25-3.214-4.844-6.75-11.713-6.75-14.25A6.75 6.75 0 0 1 12 1.5zM12 0a8.25 8.25 0 0 0-8.25 8.25c0 2.965 3.594 9.945 7 15.08a1.5 1.5 0 0 0 2.5 0c3.406-5.135 7-12.115 7-15.08A8.25 8.25 0 0 0 12 0z';
-  --close-btn: url('../img/xrestuk.png');
+  --apartment: "M2.75 12h18.5c.69 0 1.25.56 1.25 1.25V18l.75-.75H.75l.75.75v-4.75c0-.69.56-1.25 1.25-1.25zm0-1.5A2.75 2.75 0 0 0 0 13.25V18c0 .414.336.75.75.75h22.5A.75.75 0 0 0 24 18v-4.75a2.75 2.75 0 0 0-2.75-2.75H2.75zM0 18v3a.75.75 0 0 0 1.5 0v-3A.75.75 0 0 0 0 18zm22.5 0v3a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0zm-.75-6.75V4.5a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 2.25 4.5v6.75a.75.75 0 0 0 1.5 0V4.5a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 0 1.5 0zm-13.25-3h7a.25.25 0 0 1 .25.25v2.75l.75-.75h-9l.75.75V8.5a.25.25 0 0 1 .25-.25zm0-1.5A1.75 1.75 0 0 0 6.75 8.5v2.75c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V8.5a1.75 1.75 0 0 0-1.75-1.75h-7z";
+  --air-tickets: "M20.505 7.5l-15.266.022.672.415-1.1-2.2a.75.75 0 0 0-.638-.414l-2.293-.1C.82 5.228-.003 6.06.003 7.083c.002.243.051.484.146.709l2.072 4.68a2.947 2.947 0 0 0 2.701 1.778h4.043l-.676-1.075-2.484 5.168A1.831 1.831 0 0 0 7.449 21h2.099a1.85 1.85 0 0 0 1.419-.664l5.165-6.363-.582.277h4.956c1.82.09 3.399-1.341 3.49-3.198l.004-.134a3.426 3.426 0 0 0-3.44-3.419l-.074.001zm.02 1.5h.042a1.924 1.924 0 0 1 1.933 1.914l-.002.065a1.866 1.866 0 0 1-1.955 1.772l-4.993-.001a.75.75 0 0 0-.582.277l-5.16 6.355a.346.346 0 0 1-.26.118h-2.1a.336.336 0 0 1-.3-.49l2.493-5.185a.75.75 0 0 0-.676-1.075H4.924a1.45 1.45 0 0 1-1.328-.878l-2.07-4.676a.35.35 0 0 1 .326-.474l2.255.1-.638-.415 1.1 2.2a.75.75 0 0 0 .672.415L20.507 9zM16.323 7.76l-2.992-4.02A1.851 1.851 0 0 0 11.85 3H9.783a1.85 1.85 0 0 0-1.654 2.672l1.439 2.91a.75.75 0 0 0 1.344-.664L9.472 5.007a.351.351 0 0 1 .312-.507h2.066a.35.35 0 0 1 .279.14l2.99 4.017a.75.75 0 1 0 1.203-.896z";
+  --car-rental: "M21.684 9.443l-1.7-3.79c-.42-1.128-1.542-1.905-2.794-1.903H6.809a2.999 2.999 0 0 0-2.811 1.947L2.316 9.443a.75.75 0 1 0 1.368.614l1.7-3.79c.238-.63.798-1.018 1.424-1.017h10.383a1.5 1.5 0 0 1 1.407.973l1.718 3.834a.75.75 0 1 0 1.368-.614zM.75 16.468V18a2.25 2.25 0 0 0 4.5 0v-1.5a.75.75 0 0 0-1.5 0V18a.75.75 0 0 1-1.5 0v-1.532a.75.75 0 0 0-1.5 0zm21 0V18a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 0-1.5 0V18a2.25 2.25 0 0 0 4.5 0v-1.532a.75.75 0 0 0-1.5 0zM19.875 13.5a.375.375 0 0 1-.375-.375.75.75 0 0 0 1.5 0c0-.621-.504-1.125-1.125-1.125a.75.75 0 0 0 0 1.5zm.375-.375a.375.375 0 0 1-.375.375.75.75 0 0 0 0-1.5c-.621 0-1.125.504-1.125 1.125a.75.75 0 0 0 1.5 0zm-.375-.375c.207 0 .375.168.375.375a.75.75 0 0 0-1.5 0c0 .621.504 1.125 1.125 1.125a.75.75 0 0 0 0-1.5zm-.375.375c0-.207.168-.375.375-.375a.75.75 0 0 0 0 1.5c.621 0 1.125-.504 1.125-1.125a.75.75 0 0 0-1.5 0zM4.125 12C3.504 12 3 12.504 3 13.125a.75.75 0 0 0 1.5 0 .375.375 0 0 1-.375.375.75.75 0 0 0 0-1.5zm1.125 1.125c0-.621-.504-1.125-1.125-1.125a.75.75 0 0 0 0 1.5.375.375 0 0 1-.375-.375.75.75 0 0 0 1.5 0zM4.125 14.25c.621 0 1.125-.504 1.125-1.125a.75.75 0 0 0-1.5 0c0-.207.168-.375.375-.375a.75.75 0 0 0 0 1.5zM3 13.125c0 .621.504 1.125 1.125 1.125a.75.75 0 0 0 0-1.5c.207 0 .375.168.375.375a.75.75 0 0 0-1.5 0zM2.75 10.5h18.5c.69 0 1.25.56 1.25 1.25v3.75a.25.25 0 0 1-.25.25H1.75a.25.25 0 0 1-.25-.25v-3.75c0-.69.56-1.25 1.25-1.25zm0-1.5A2.75 2.75 0 0 0 0 11.75v3.75c0 .966.784 1.75 1.75 1.75h20.5A1.75 1.75 0 0 0 24 15.5v-3.75A2.75 2.75 0 0 0 21.25 9H2.75z";
+  --leisure-options: "M13.5 3a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM15 3a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM21 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm-9-3.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zM6 15a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm10.066 1.277a7.5 7.5 0 0 1-3.077 2.05.75.75 0 0 0 .498 1.415 9 9 0 0 0 3.693-2.46.75.75 0 1 0-1.114-1.005zm1.798-6.466c.177.922.183 1.869.015 2.792a.75.75 0 1 0 1.476.268c.2-1.106.194-2.24-.019-3.344a.75.75 0 1 0-1.472.284zm-5.337-5.784a7.5 7.5 0 0 1 3.54 2.196.75.75 0 0 0 1.113-1.004 9.002 9.002 0 0 0-4.247-2.636.75.75 0 1 0-.406 1.444zM6.434 6.223a7.5 7.5 0 0 1 3.539-2.196.75.75 0 1 0-.406-1.444A9.001 9.001 0 0 0 5.32 5.219a.75.75 0 0 0 1.114 1.004zM4.636 12.69a7.602 7.602 0 0 1 0-2.878.75.75 0 1 0-1.472-.284 9.102 9.102 0 0 0 0 3.446.75.75 0 0 0 1.472-.284zm4.876 5.639a7.517 7.517 0 0 1-3.035-2.005.75.75 0 0 0-1.106 1.014 9.017 9.017 0 0 0 3.641 2.405.75.75 0 1 0 .5-1.414zM7.31 21.872A1.5 1.5 0 0 0 8.672 24h6.656a1.5 1.5 0 0 0 1.362-2.128l-3.314-8.217c-.361-.785-1.252-1.114-2.005-.767a1.5 1.5 0 0 0-.733.734l-3.343 8.283zm1.377.595l3.328-8.25-.015.033 3.313 8.217.015.033H8.672z";
+  --taxi-to-from-airport: "M21.75 15.5V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zm-16.5 0V8a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0zM3 8.75h3a.75.75 0 0 0 0-1.5H3a.75.75 0 0 0 0 1.5zm6.75 6.75v-6a.75.75 0 0 1 1.5 0v6a.75.75 0 0 0 1.5 0v-6a2.25 2.25 0 0 0-4.5 0v6a.75.75 0 0 0 1.5 0zM9 13.25h3a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5zm5.304-4.971l3 7.5a.75.75 0 0 0 1.392-.557l-3-7.5a.75.75 0 0 0-1.392.557zm3-.558l-3 7.5a.75.75 0 0 0 1.392.557l3-7.5a.75.75 0 0 0-1.392-.557zM.75 5h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zm0 15h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5z";
+  --question-mark: "M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z";
+  --bell: "M9.28 21.961a2.837 2.837 0 0 0 5.445 0 .75.75 0 1 0-1.44-.422 1.337 1.337 0 0 1-2.565 0 .75.75 0 1 0-1.44.422zM12.75 3V.75a.75.75 0 0 0-1.5 0V3a.75.75 0 0 0 1.5 0zm-.75.75a6.75 6.75 0 0 1 6.75 6.75c0 3.154.29 5.436.785 6.994.323 1.02.684 1.59.995 1.84L21 18H3l.59 1.212c.248-.315.572-.958.88-2 .49-1.66.78-3.872.78-6.712A6.75 6.75 0 0 1 12 3.75zm0-1.5a8.25 8.25 0 0 0-8.25 8.25c0 2.702-.272 4.772-.72 6.288-.254.864-.493 1.336-.62 1.5A.75.75 0 0 0 3 19.5h18c.708 0 1.022-.892.47-1.335.019.016-.008-.015-.07-.113-.14-.223-.29-.553-.435-1.012-.443-1.396-.715-3.529-.715-6.54A8.25 8.25 0 0 0 12 2.25z";
+  --small-search: url("../img/search-small.png");
+  --calendar: url("../img/calendar.png");
+  --calendar-small: url("../img/calendar-small.png");
+  --bed: url("https://cf.bstatic.com/static/img/cross_product_index/accommodation/07ca5cacc9d77a7b50ca3c424ecd606114d9be75.svg");
+  --man: "https://cf.bstatic.com/static/img/cross_product_index/guest/b2e5f2aa32b71ca0fc66aa671e4e958bcd69b7d0.svg";
+  --pointer-up-down: "https://cf.bstatic.com/static/img/cross_product_index/toggle/fb6f63d62231f9fe552d79b5448620b2e63c726e.svg";
+  --pointer-down: url("../img/pointerdown.png");
+  --info: "M14.25 15.75h-.75a.75.75 0 0 1-.75-.75v-3.75a1.5 1.5 0 0 0-1.5-1.5h-.75a.75.75 0 0 0 0 1.5h.75V15a2.25 2.25 0 0 0 2.25 2.25h.75a.75.75 0 0 0 0-1.5zM11.625 6a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z";
+  --pointer-left: "M14.55 18a.74.74 0 0 1-.53-.22l-5-5A1.08 1.08 0 0 1 8.7 12a1.1 1.1 0 0 1 .3-.78l5-5a.75.75 0 0 1 1.06 0 .74.74 0 0 1 0 1.06L10.36 12l4.72 4.72a.74.74 0 0 1 0 1.06.73.73 0 0 1-.53.22zm-4.47-5.72zm0-.57z";
+  --pointer-right: "M9.45 6c.2 0 .39.078.53.22l5 5c.208.206.323.487.32.78a1.1 1.1 0 0 1-.32.78l-5 5a.75.75 0 0 1-1.06 0 .74.74 0 0 1 0-1.06L13.64 12 8.92 7.28a.74.74 0 0 1 0-1.06.73.73 0 0 1 .53-.22zm4.47 5.72zm0 .57z";
+  --criss-cross: "M13.31,12l8-8A.93.93,0,0,0,20,2.66l-8,8-8-8A.93.93,0,0,0,2.66,4l8,8-8,8a.94.94,0,0,0,0,1.32.94.94,0,0,0,1.32,0l8-8,8,8a.94.94,0,0,0,1.32,0,.94.94,0,0,0,0-1.32Z";
+  --map: "M15 8.25a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm1.5 0a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zM12 1.5a6.75 6.75 0 0 1 6.75 6.75c0 2.537-3.537 9.406-6.75 14.25-3.214-4.844-6.75-11.713-6.75-14.25A6.75 6.75 0 0 1 12 1.5zM12 0a8.25 8.25 0 0 0-8.25 8.25c0 2.965 3.594 9.945 7 15.08a1.5 1.5 0 0 0 2.5 0c3.406-5.135 7-12.115 7-15.08A8.25 8.25 0 0 0 12 0z";
+  --close-btn: url("../img/xrestuk.png");
 
   /* flags */
-  --great-britain-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/gb/daba79fdd4066d133e8bf59070fd6819b951c403.png';
-  --usa-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/us/fa2b2a0e643c840152ba856a8bb081c7ded40efa.png';
-  --germany-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/de/668350ee17050ec21845c27503ae960695f341a9.png';
-  --nederlands-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/nl/65e3bcc466c4026a08bdb2671799ca26c3228d19.png';
-  --france-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/fr/c48bc65c9dc57035fa983df37e9732c0f0a2663f.png';
-  --spain-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/es/b3bd4690290a78b1303198dd6576bdab8d7f9a80.png';
-  --argentina-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ar/9cce2b91336709016282f06432a8b6366069e0c2.png';
-  --mexico-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/mx/f3a3f562a0185d68fb04b2ec01db2062ca6bdb76.png';
-  --catalonia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/catalonia/8578246a75d8b9dceaacb174072d0c6acafcc2df.png';
-  --italy-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/it/b8db3771480bd0c7971b9f94cad3640c89521882.png';
-  --portugal-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/pt/6542345c7408e3bd0d4c2e8f38d4396bba9b0e69.png';
-  --brazil-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/br/0cf5e55d996fdcf96a2d31733addf5c10bad1f74.png';
-  --norway-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/no/827be8d24af5667778b4bc651fe03f738a812b60.png';
-  --finland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/fi/465d3b73ff07d1d696cb5dd26fbb91097c175e1b.png';
-  --sweden-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/se/5e126775c25a54a24956ddcc72c8bbcaeed20872.png';
-  --denmark-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/dk/744575dd4e87590a543b7c8cbacaef6c3de4e4d2.png';
-  --czech-republic-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/cz/32002e60fead55ce886ff9827dfcf4af8cf4e277.png';
-  --hungary-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/hu/fc7cb24c5c7cb9de74a74fad271d6838daabc4cb.png';
-  --romania-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ro/2d67b91f7beb87bd9286975da3e6dadc70d9c64b.png';
-  --japan-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/jp/9bf7e50bc6dc66599aeede9189ca16de461c60b6.png';
-  --china-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/cn/5a221730f540facc62563bfa6192ce155a9f677e.png';
-  --poland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/pl/4d6b6e962b0b049a03924fc618b959395d60ae39.png';
-  --greece-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/gr/e0e42a97a7b860fc9be71954262902f2a4e94aa6.png';
-  --russia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ru/2277320023a64803843c36ca6aa48ad77523dd0d.png';
-  --turkey-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/tr/f7ad0cb74f4ea5e7193cb6029c7f977e9786cfa2.png';
-  --bulgaria-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/bg/540f2da5fee31b7385af127619ab5ca4fc3783b5.png';
-  --saudi-arabia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/sa/44ab510f37755d1d9d4c4dfa9b1f25bed9b2a95c.png';
-  --korea-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/kr/4cb76b458a73ca4c1de034c7623475278d363ce6.png';
-  --israel-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/il/fc1907ccd86aa051f7fbe22649d1e31ac6aee016.png';
-  --latvia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/lv/393103a26c1d5f1fbd7d9674732bbdfc42296399.png';
-  --ukraine-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ua/2ea50f1c1fb480c4557a5578f71657fc3152c3a1.png';
-  --indonesia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/id/e7d3d00965d8c994a72807b43b21c648250cf906.png';
-  --malaysia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/my/6d811cf6127cea0a957ca0243546a03339fa19ac.png';
-  --thailand-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/th/53a76d6856962953d739d07ac61f04adee50a3d1.png';
-  --estonia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ee/509074558f4fe7c71ceed57584dec0382274dd16.png';
-  --croatia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/hr/e7a46f4dad977aecafa6a3680972e0c137a1bc41.png';
-  --lithuania-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/lt/5bb712a60a82b7e075deba5b102aa36348bbb255.png';
-  --slovakia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/sk/29e3667f5aca74c157af9225d5a97a74a41e52ef.png';
-  --serbian-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/rs/c1bc4fc1d782713cfec17a071dadca6b755a233e.png';
-  --slovenia-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/si/f0619cdd45548522566c6d72a660ddc011906184.png';
-  --vietnam-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/vn/90b17da2aafaebce7b0c34189747e1e10dba8041.png';
-  --philippines-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ph/7048127466891462116ee2774154585fb5607aba.png';
-  --iceland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/is/7d644655f895f8e346b964dc18cf5b6608a98d52.png';
+  --great-britain-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/gb/daba79fdd4066d133e8bf59070fd6819b951c403.png";
+  --usa-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/us/fa2b2a0e643c840152ba856a8bb081c7ded40efa.png";
+  --germany-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/de/668350ee17050ec21845c27503ae960695f341a9.png";
+  --nederlands-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/nl/65e3bcc466c4026a08bdb2671799ca26c3228d19.png";
+  --france-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/fr/c48bc65c9dc57035fa983df37e9732c0f0a2663f.png";
+  --spain-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/es/b3bd4690290a78b1303198dd6576bdab8d7f9a80.png";
+  --argentina-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ar/9cce2b91336709016282f06432a8b6366069e0c2.png";
+  --mexico-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/mx/f3a3f562a0185d68fb04b2ec01db2062ca6bdb76.png";
+  --catalonia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/catalonia/8578246a75d8b9dceaacb174072d0c6acafcc2df.png";
+  --italy-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/it/b8db3771480bd0c7971b9f94cad3640c89521882.png";
+  --portugal-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/pt/6542345c7408e3bd0d4c2e8f38d4396bba9b0e69.png";
+  --brazil-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/br/0cf5e55d996fdcf96a2d31733addf5c10bad1f74.png";
+  --norway-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/no/827be8d24af5667778b4bc651fe03f738a812b60.png";
+  --finland-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/fi/465d3b73ff07d1d696cb5dd26fbb91097c175e1b.png";
+  --sweden-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/se/5e126775c25a54a24956ddcc72c8bbcaeed20872.png";
+  --denmark-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/dk/744575dd4e87590a543b7c8cbacaef6c3de4e4d2.png";
+  --czech-republic-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/cz/32002e60fead55ce886ff9827dfcf4af8cf4e277.png";
+  --hungary-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/hu/fc7cb24c5c7cb9de74a74fad271d6838daabc4cb.png";
+  --romania-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ro/2d67b91f7beb87bd9286975da3e6dadc70d9c64b.png";
+  --japan-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/jp/9bf7e50bc6dc66599aeede9189ca16de461c60b6.png";
+  --china-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/cn/5a221730f540facc62563bfa6192ce155a9f677e.png";
+  --poland-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/pl/4d6b6e962b0b049a03924fc618b959395d60ae39.png";
+  --greece-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/gr/e0e42a97a7b860fc9be71954262902f2a4e94aa6.png";
+  --russia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ru/2277320023a64803843c36ca6aa48ad77523dd0d.png";
+  --turkey-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/tr/f7ad0cb74f4ea5e7193cb6029c7f977e9786cfa2.png";
+  --bulgaria-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/bg/540f2da5fee31b7385af127619ab5ca4fc3783b5.png";
+  --saudi-arabia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/sa/44ab510f37755d1d9d4c4dfa9b1f25bed9b2a95c.png";
+  --korea-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/kr/4cb76b458a73ca4c1de034c7623475278d363ce6.png";
+  --israel-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/il/fc1907ccd86aa051f7fbe22649d1e31ac6aee016.png";
+  --latvia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/lv/393103a26c1d5f1fbd7d9674732bbdfc42296399.png";
+  --ukraine-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ua/2ea50f1c1fb480c4557a5578f71657fc3152c3a1.png";
+  --indonesia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/id/e7d3d00965d8c994a72807b43b21c648250cf906.png";
+  --malaysia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/my/6d811cf6127cea0a957ca0243546a03339fa19ac.png";
+  --thailand-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/th/53a76d6856962953d739d07ac61f04adee50a3d1.png";
+  --estonia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ee/509074558f4fe7c71ceed57584dec0382274dd16.png";
+  --croatia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/hr/e7a46f4dad977aecafa6a3680972e0c137a1bc41.png";
+  --lithuania-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/lt/5bb712a60a82b7e075deba5b102aa36348bbb255.png";
+  --slovakia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/sk/29e3667f5aca74c157af9225d5a97a74a41e52ef.png";
+  --serbian-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/rs/c1bc4fc1d782713cfec17a071dadca6b755a233e.png";
+  --slovenia-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/si/f0619cdd45548522566c6d72a660ddc011906184.png";
+  --vietnam-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/vn/90b17da2aafaebce7b0c34189747e1e10dba8041.png";
+  --philippines-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/ph/7048127466891462116ee2774154585fb5607aba.png";
+  --iceland-flag: "https://cf.bstatic.com/static/img/flags/new/48-squared/is/7d644655f895f8e346b964dc18cf5b6608a98d52.png";
 }
-
