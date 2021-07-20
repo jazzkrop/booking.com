@@ -224,7 +224,9 @@
   --philippines-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ph/7048127466891462116ee2774154585fb5607aba.png';
   --iceland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/is/7d644655f895f8e346b964dc18cf5b6608a98d52.png';
 }
+// class helpers
 
+// colors
 .bg-color-primary-default {
   background: var(--color-primary-default);
 }
@@ -476,6 +478,7 @@
   color: var(--color-black-t1-default);
 }
 
+// borders
 .br-1 {
   border-radius: var(--br-1);
 }
@@ -507,6 +510,7 @@
   border-style: solid;
 }
 
+// fonts
 .ff-default {
   font-family: var(--ff-default);
 }
@@ -567,4 +571,205 @@
 }
 .lh-body2 {
   line-height: var(--lh-body2);
+}
+
+// cursor
+.cursor-pointer {
+  cursor: var(--cursor-pointer);
+}
+.cursor-not-allowed {
+  cursor: var(--cursor-not-allowed);
+}
+
+// icons
+.apartment {
+  background: var(--apartment);
+}
+.air-tickets {
+  background: var(--air-tickets);
+}
+.car-rental {
+  background: var(--car-rental);
+}
+.leisure-options {
+  background: var(--leisure-options);
+}
+.taxi-to-from-airport {
+  background: var(--taxi-to-from-airport);
+}
+.question-mark {
+  background: var(--question-mark);
+}
+.bell {
+  background: var(--bell);
+}
+.small-search {
+  background: var(--small-search);
+}
+.calendar {
+  background: var(--calendar);
+}
+.calendar-small {
+  background: var(--calendar-small);
+}
+.bed {
+  background: var(--bed);
+}
+.man {
+  background: var(--man);
+}
+.pointer-up-down {
+  background: var(--pointer-up-down);
+}
+.pointer-down {
+  background: var(--pointer-down);
+}
+.info {
+  background: var(--info);
+}
+.pointer-left {
+  background: var(--pointer-left);
+}
+.pointer-right {
+  background: var(--pointer-right);
+}
+.criss-cross {
+  background: var(--criss-cross);
+}
+.map {
+  background: var(--map);
+}
+.close-btn {
+  background: var(--close-btn);
+}
+
+// flags
+.great-britain-flag {
+  background: var(--great-britain-flag);
+}
+.usa-flag {
+  background: var(--usa-flag);
+}
+.germany-flag {
+  background: var(--germany-flag);
+}
+.nederlands-flag {
+  background: var(--nederlands-flag);
+}
+.france-flag {
+  background: var(--france-flag);
+}
+.spain-flag {
+  background: var(--spain-flag);
+}
+.argentina-flag {
+  background: var(--argentina-flag);
+}
+.mexico-flag {
+  background: var(--mexico-flag);
+}
+.catalonia-flag {
+  background: var(--catalonia-flag);
+}
+.italy-flag {
+  background: var(--italy-flag);
+}
+.portugal-flag {
+  background: var(--portugal-flag);
+}
+.brazil-flag {
+  background: var(--brazil-flag);
+}
+.norway-flag {
+  background: var(--norway-flag);
+}
+.finland-flag {
+  background: var(--finland-flag);
+}
+.sweden-flag {
+  background: var(--sweden-flag);
+}
+.denmark-flag {
+  background: var(--denmark-flag);
+}
+.czech-republic-flag {
+  background: var(--czech-republic-flag);
+}
+.hungary-flag {
+  background: var(--hungary-flag);
+}
+.romania-flag {
+  background: var(--romania-flag);
+}
+.japan-flag {
+  background: var(--japan-flag);
+}
+.china-flag {
+  background: var(--china-flag);
+}
+.poland-flag {
+  background: var(--poland-flag);
+}
+.greece-flag {
+  background: var(--greece-flag);
+}
+.russia-flag {
+  background: var(--russia-flag);
+}
+.turkey-flag {
+  background: var(--turkey-flag);
+}
+.bulgaria-flag {
+  background: var(--bulgaria-flag);
+}
+.saudi-arabia-flag {
+  background: var(--saudi-arabia-flag);
+}
+.korea-flag {
+  background: var(--korea-flag);
+}
+.israel-flag {
+  background: var(--israel-flag);
+}
+.latvia-flag {
+  background: var(--latvia-flag);
+}
+.ukraine-flag {
+  background: var(--ukraine-flag);
+}
+.indonesia-flag {
+  background: var(--indonesia-flag);
+}
+.malaysia-flag {
+  background: var(--malaysia-flag);
+}
+.thailand-flag {
+  background: var(--thailand-flag);
+}
+.estonia-flag {
+  background: var(--estonia-flag);
+}
+.croatia-flag {
+  background: var(--croatia-flag);
+}
+.lithuania-flag {
+  background: var(--lithuania-flag);
+}
+.slovakia-flag {
+  background: var(--slovakia-flag);
+}
+.serbian-flag {
+  background: var(--serbian-flag);
+}
+.slovenia-flag {
+  background: var(--slovenia-flag);
+}
+.vietnam-flag {
+  background: var(--vietnam-flag);
+}
+.philippines-flag {
+  background: var(--philippines-flag);
+}
+.iceland-flag {
+  background: var(--iceland-flag);
 }
