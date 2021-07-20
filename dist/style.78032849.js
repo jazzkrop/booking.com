@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,17 +184,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/config.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/config.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\booking.com.png":[["booking.com.463e9169.png","img/booking.com.png"],"img/booking.com.png"],"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\priceline.com.png":[["priceline.com.2831990c.png","img/priceline.com.png"],"img/priceline.com.png"],"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\kayak.png":[["kayak.812ba094.png","img/kayak.png"],"img/kayak.png"],"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\agoda.png":[["agoda.aa2e06e4.png","img/agoda.png"],"img/agoda.png"],"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\rentalcars.png":[["rentalcars.e8b607e6.png","img/rentalcars.png"],"img/rentalcars.png"],"D:\\Projects\\Fractal\\Booking\\booking.com\\img\\opentable.png":[["opentable.6eaa6058.png","img/opentable.png"],"img/opentable.png"],"./..\\img\\search-small.png":[["search-small.2469853e.png","img/search-small.png"],"img/search-small.png"],"./..\\img\\calendar.png":[["calendar.2312ea13.png","img/calendar.png"],"img/calendar.png"],"./..\\img\\calendar-small.png":[["calendar-small.5a0d14cd.png","img/calendar-small.png"],"img/calendar-small.png"],"./..\\img\\pointerdown.png":[["pointerdown.f9266097.png","img/pointerdown.png"],"img/pointerdown.png"],"./..\\img\\xrestuk.png":[["xrestuk.f460a393.png","img/xrestuk.png"],"img/xrestuk.png"],"_css_loader":"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/style.css":[function(require,module,exports) {
+},{"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/booking.com.png":[["booking.com.463e9169.png","img/booking.com.png"],"img/booking.com.png"],"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/priceline.com.png":[["priceline.com.2831990c.png","img/priceline.com.png"],"img/priceline.com.png"],"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/kayak.png":[["kayak.812ba094.png","img/kayak.png"],"img/kayak.png"],"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/agoda.png":[["agoda.aa2e06e4.png","img/agoda.png"],"img/agoda.png"],"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/rentalcars.png":[["rentalcars.e8b607e6.png","img/rentalcars.png"],"img/rentalcars.png"],"/home/andry/Стільниця/progects fractal/clonebooking/booking.com/img/opentable.png":[["opentable.6eaa6058.png","img/opentable.png"],"img/opentable.png"],"./../img/search-small.png":[["search-small.2469853e.png","img/search-small.png"],"img/search-small.png"],"./../img/calendar.png":[["calendar.2312ea13.png","img/calendar.png"],"img/calendar.png"],"./../img/calendar-small.png":[["calendar-small.5a0d14cd.png","img/calendar-small.png"],"img/calendar-small.png"],"./../img/pointerdown.png":[["pointerdown.f9266097.png","img/pointerdown.png"],"img/pointerdown.png"],"./../img/xrestuk.png":[["xrestuk.f460a393.png","img/xrestuk.png"],"img/xrestuk.png"],"_css_loader":"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"css/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./config.css":"css/config.css","_css_loader":"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./config.css":"css/config.css","_css_loader":"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -222,7 +222,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64084" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41279" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -398,5 +398,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/musht/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../.nvm/versions/node/v12.22.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/style.78032849.js.map
