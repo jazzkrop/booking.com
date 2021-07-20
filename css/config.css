@@ -17,7 +17,7 @@
   --color-secondary-t1-default: rgba(0, 113, 194, 0.06);
 
   /* success */
-  --color-success-lighter1: rgba(231, 253, 233, 1); /* e7fde9 */
+  --color-success-lighten1: rgba(231, 253, 233, 1); /* e7fde9 */
   --color-success-default: rgba(0, 128, 9, 1); /* #008009 */
 
   /* danger */
@@ -39,10 +39,10 @@
   /* Color gray */
   --color-gray-default: rgba(217, 217, 217, 1); /* #d9d9d9 */
   --coloe-gray-darken1: rgba(189, 189, 189, 1); /* #bdbdbd */
-  --color-gray-darken2: rgba(179, 179, 179, 1); /* #b3b3b3 */ /* plus/minus default */
-  --color-gray-darken3: rgba(165, 165, 165, 1); /* #a5a5a5 */ /* distination description */
-  --color-gray-darken4: rgba(131, 131, 131, 1); /* #838383 (1..9) */
-  --color-gray-darken5: rgba(115, 115, 115, 1); /* #737373 destination text */
+  --color-gray-darken2: rgba(179, 179, 179, 1); /* #b3b3b3 */
+  --color-gray-darken3: rgba(165, 165, 165, 1); /* #a5a5a5 */
+  --color-gray-darken4: rgba(131, 131, 131, 1); /* #838383 */
+  --color-gray-darken5: rgba(115, 115, 115, 1); /* #737373 */
   --color-gray-darken6: rgba(51,51,51,1); /* #333333 */
 
   /* white */
@@ -56,45 +56,79 @@
   --color-black-default: rgba(0, 0, 0, 1);
   --color-black-t1-default: rgba(0,0,0,.06);
 
-  /* borders */
-  --border-radius-none: 0px;
-  --border-radius-small-1: 1px;
-  --border-radius-small-2: 1.8px;
-  --border-radius-body: 2px;
-  --border-radius-big-1: 3px;
-  --border-radius-big-2: 5.8px;
+  /* borders-radius */
+  --br-1: 5.8px;
+  --br-2: 3px;
+  --br-3: 2px;
+  --br-4: 1.8px;
+  --br-5: 1px;
+  --br-6: 0px;
 
-  --border-width-light: 1px;
-  --border-width-normal: 2px;
-  --border-width-bold: 3px;
+  /* border-width */
+  --bw-3: 3px;
+  --bw-2: 2px;
+  --bw-1: 1px;
 
-  --border-style-body: solid;
+  /* border-style */
+  --bs-solid: solid;
 
-  /* text */
-  --font-family-primary: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  /* font-family */
+  --ff-default: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 
-  --font-size-body: 16px;
-  --font-size-small-1: 14px;
-  --font-size-small-2: 13px;
-  --font-size-small-3: 12px;
-  --font-size-big-1: 20px;
-  --font-size-big-2: 23px;
-  --font-size-big-3: 24px;
-  --font-size-big-4: 28px;
-  --font-size-big-5: 28.5px;
+  /*--ff-BMSF: BlinkMacSystemFont;*/
+  /*--ff-AS: -apple-system;*/
+  /*--ff-SUI: Segeo UI;*/
+  /*--ff-R: Roboto;*/
+  /*--ff-H: Helvetica;*/
+  /*--ff-A: Arial;*/
+  /*--ff-SS: sans-serif;*/
 
-  --font-weight-body: 400;
-  --font-weight-small: 100;
-  --font-weight-big-1: 500;
-  --font-weight-big-2: 600;
-  --font-weight-big-3: 700;
+  /* font-size */
+  /*--fs-px-1: 28.5px;*/
+  /*--fs-px-2: 28px;*/
+  /*--fs-px-3: 24px;*/
+  /*--fs-px-4: 23px;*/
+  /*--fs-px-5: 20px;*/
+  /*--fs-px-6: 16px;*/
+  /*--fs-px-7: 14px;*/
+  /*--fs-px-8: 13px;*/
+  /*--fs-px-9: 12px;*/
 
-  --line-height-body: 18px;
-  --line-height-small: 1.2;
-  --line-height-big-1: 20px;
-  --line-height-big-2: 24px;
-  --line-height-big-3: 28px;
-  --line-height-big-4: 32px;
+  --fs-h1: 1.75rem;
+  --fs-h2: 1.5rem;
+  --fs-h3: 1.438rem;
+  --fs-h4: 1.25rem;
+  --fs-body1: 1rem;
+  --fs-body2: 0.875rem;
+  --fs-caption1: 0.813rem;
+  --fs-caption2: 0.75rem;
+
+
+  /* font-weight */
+  --fw-thin: 100;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semi-Bold: 600;
+  --fw-bold: 700;
+
+  /* line-height */
+  --lh-h1: 2rem;
+  --lh-h2: 1.75rem;
+  --lh-h3: 1.5rem;
+  --lh-h4: 1.25rem;
+  --lh-body1: 1.125rem;
+  --lh-body2: 1.2rem;
+
+  /*--line-height-body: 18px;*/
+  /*--line-height-small: 1.2;*/
+  /*--line-height-big-1: 20px;*/
+  /*--line-height-big-2: 24px;*/
+  /*--line-height-big-3: 28px;*/
+  /*--line-height-big-4: 32px;*/
+
+  /* cursor */
+  --cursor-pointer: pointer;
+  --cursor-not-allowed: not-allowed;
 
   /* logos */
   --logo-booking: url('/img/booking.com.png');
@@ -171,3 +205,4 @@
   --philippines-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/ph/7048127466891462116ee2774154585fb5607aba.png';
   --iceland-flag: 'https://cf.bstatic.com/static/img/flags/new/48-squared/is/7d644655f895f8e346b964dc18cf5b6608a98d52.png';
 }
+
