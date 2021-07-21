@@ -1,0 +1,18 @@
+@import url(../config.scss);
+
+html {
+  box-sizing: border-box;
+}
+
+@mixin searchbox-universal ($widht, $height, $padding, $background-color, $border-radius, $display){
+  width: $widht;
+  height: $height;
+  padding: $padding;
+  background-color: $background-color;
+  border-radius: $border-radius;
+  display: $display;
+}
+
+.searchbox-inline {
+  @include searchbox-universal(232px, 434px, 16px, var(--color-warning-default), var(--br-1), relative);
+}

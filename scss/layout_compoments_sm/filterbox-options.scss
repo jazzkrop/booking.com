@@ -1,0 +1,343 @@
+@import url(../config.scss);
+
+html {
+  box-sizing: border-box;
+}
+// Filterbox - side box, on search page with a lot checkboxes
+@mixin filterbox ($width,
+                  $height,
+                  $display,
+                  $position) {
+  width: $width;
+  height: $height;
+  display: $display;
+  position: $position
+}
+
+// Filterbox-border-top - main filterbox with border top
+@mixin filterbox-border-top ($border-top-color,
+                             $border-top-style,
+                             $border-top-width,
+                             $border-top-left-radius,
+                             $border-top-right-radius,) {
+  border-top-color: $border-top-color;
+  border-top-left-radius: $border-top-left-radius;
+  border-top-right-radius: $border-top-right-radius;
+  border-top-style: $border-top-style;
+  border-top-width: $border-top-width;
+}
+
+// Filterbox-border-bottom - main filterbox with border bottom
+@mixin filterbox-border-bottom ($border-bottom-color,
+                                $border-bottom-style,
+                                $border-bottom-width,
+                                $border-bottom-left-radius,
+                                $border-bottom-right-radius,){
+  border-bottom-color: $border-bottom-color;
+  border-bottom-left-radius: $border-bottom-left-radius;
+  border-bottom-right-radius: $border-bottom-right-radius;
+  border-bottom-style: $border-bottom-style;
+  border-bottom-width: $border-bottom-width;
+}
+
+// Filterbox-border-left - main filterbox with border left
+@mixin filterbox-border-left ($border-left-color,
+                              $border-left-style,
+                              $border-left-width){
+  border-left-color: $border-left-color;
+  border-left-style: $border-left-style;
+  border-left-width: $border-left-width;
+}
+
+// Filterbox-border-right - main filterbox with border right
+@mixin filterbox-border-right ($border-right-color,
+                               $border-right-style,
+                               $border-right-width){
+  border-right-color: $border-right-color;
+  border-right-style: $border-right-style;
+  border-right-width: $border-right-width;
+}
+
+// Filterbox-background
+@mixin filterbox-background ($background-attachment,
+                             $background-clip,
+                             $background-color,
+                             $background-image,
+                             $background-origin,
+                             $background-position-x,
+                             $background-position-y,
+                             $background-size){
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: var(--color-white-default);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+}
+
+// Filterbox-typography
+@mixin filterbox-typography ($color,
+                             $font-family,
+                             $font-size,
+                             $font-weight,
+                             $line-height){
+  color: $color;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+// Filterbox-margin
+@mixin filterbox-margin ($margin-top,
+                         $margin-bottom,
+                         $margin-left,
+                         $margin-right){
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+}
+
+// Filterbox-padding
+@mixin filterbox-padding ($padding-top,
+                          $padding-bottom,
+                          $padding-left,
+                          $padding-right){
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+}
+
+// Filterbox_wrap - is main box in the left with parameters
+// location - left side in Search Page hotels
+.filterbox-wrap {
+  @include filterbox (262px, 980px, block, relative);
+  @include filterbox-border-top (var(--color-gray-default), var(--bs-solid), var(--bw-3), var(--br-2), var(--br-2));
+  @include filterbox-border-bottom (var(--color-gray-default), var(--bs-solid), var(--bw-3), var(--br-2), var(--br-2));
+  @include filterbox-border-left (var(--color-gray-default), var(--bs-solid), var(--bw-3));
+  @include filterbox-border-right (var(--color-gray-default), var(--bs-solid), var(--bw-3));
+  @include filterbox-background (scroll, border-box, var(--color-white-default), none, padding-box, 0%, 0%, auto);
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filterbox-margin (0px, 10px, 0px, 0px);
+  @include filterbox-padding (0px, 0px, 0px, 0px);
+}
+// ****************************************************
+// Filter-options-border-bottom
+@mixin filter-options-border-bottom ($border-bottom-color,
+                                        $border-bottom-style,
+                                        $border-bottom-width){
+  border-bottom-color: $border-bottom-color;
+  border-bottom-style: $border-bottom-style;
+  border-bottom-width: $border-bottom-width;
+}
+
+// Filter-by-wrapper
+@mixin filter-by-wrapper ($width,
+                          $height,
+                          $display){
+  width: $width;
+  height: $height;
+  display: $display;
+}
+
+// Filter-section
+@mixin filter-section ($width,
+                       $height,
+                       $display){
+  width: $width;
+  height: $height;
+  display: $display;
+}
+
+// Filter-padding
+@mixin filter-padding ($padding...){
+  padding: $padding;
+}
+
+.filter-options {
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filter-padding (8px, 8px, 8px, 8px);
+
+  //add in .html
+  display: block;
+  position: relative;
+}
+
+// Filterbox-options-content
+// location - inside Filterbox
+.filterbox-options-content {
+  @include filterbox (262px, 980px, block, relative);
+  @include filter-options-border-bottom (var(--color-gray-default), var(--bs-solid), var(--bw-3));
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+}
+
+.filter-by-wrapper {
+  @include filter-options-border-bottom (var(--color-gray-default), var(--bs-solid), var(--bw-3));
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filter-padding (8px, 8px, 8px, 8px);
+}
+
+.filter-by {
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-body1), var(--fw-bold),
+          var(--lh-h3));
+  @include filterbox-background (scroll, border-box, rgb(0, 0, 0), none, padding-box, 0px, 50%, auto);
+  @include filterbox-margin (0px, 0px, 0px, 0px);
+  @include filterbox-padding (0px, 0px, 0px, 0px);
+
+  clear: both;
+  position: static;
+}
+
+// One section in sidebar, which can be repeated
+.filterbox {
+  @include filter-options-border-bottom (var(--color-gray-default), var(--bs-solid), var(--bw-3));
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filter-padding(0px, 8px, 8px, 8px);
+  @include filterbox-margin(8px, 8px, 0px, 0px);
+
+  //add in .html
+  display: block;
+}
+
+@mixin filter-categories($background-image,
+                         $position,
+                         $z-index) {
+  background-image: $background-image;
+  position: $position;
+  z-index: $z-index;
+}
+
+// class which has inside .title
+.filter-category {
+  @include filter-categories (none, relative, 1);
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filter-padding(0px, 0px, 6px, 6px);
+}
+
+
+// Every section in sidebar has title, this all classes are inside .filterbox
+.filter-title {
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-body2), var(--fw-bold),
+          var(--lh-h4));
+  @include filter-padding (4px, 4px, 0px, 0px);
+}
+
+@mixin filter-element ($cursor,
+                       $position,
+                       $zoom) {
+  cursor: $cursor;
+  position: $position;
+  zoom: $zoom;
+}
+
+@mixin filter-element-text-decoration ($text-decoration-color,
+                                       $text-decoration-line,
+                                       $text-decoration-style,
+                                       $text-decoration-thickness) {
+  text-decoration-color: $text-decoration-color;
+  text-decoration-line: $text-decoration-line;
+  text-decoration-style: $text-decoration-style;
+  text-decoration-thickness: $text-decoration-thickness;
+}
+
+// Has checkbox and text in one class
+.filter-element {
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption2), var(--fw-normal),
+          var(--lh-h4));
+  @include filter-element (var(--cursor-pointer), relative, 1);
+  @include filter-element-text-decoration (var(--color-black-default), none, var(--bs-solid), auto);
+  @include filter-padding (5px, 5px, 5px, 2px);
+  @include filterbox-typography (var(--color-black-default), var(--ff-default), var(--fs-caption1), var(--fw-normal),
+          var(--lh-body3));
+}
+
+@mixin filter-item ($align-items,
+                    $cursor,
+                    $flex-direction,
+                    $min-height,
+                    $text-decoration-thickness,
+                    $display) {
+  align-items: $align-items;
+  cursor: $cursor;
+  flex-direction: $flex-direction;
+  min-height: $min-height;
+  text-decoration-thickness: $text-decoration-thickness;
+  display: $display;
+}
+
+@mixin filter-item-webkit ($webkit-box-align,
+                           $webkit-box-direction,
+                           $webkit-box-orient){
+  -webkit-box-align: $webkit-box-align;
+  -webkit-box-direction: $webkit-box-direction;
+  -webkit-box-orient: $webkit-box-orient;
+}
+
+// in one line with Checkbox, but it is in right position from Checkbox
+.filter-item {
+  @include filter-item (flex-start, var(--cursor-pointer), row, var(--lh-h4), auto, flex);
+  @include filterbox-typography(var(--color-black-default), var(--ff-default), var(--fs-caption1), var(--fw-normal),
+  1.3rem);
+  @include filter-item-webkit(start, normal, horizontal);
+  box-sizing: border-box;
+}
+
+@mixin filter-label-flex ($align-items,
+                          $display,
+                          $cursor,
+                          $flex-basis,
+                          $flex-grow,
+                          $flex-shrink,
+                          $flex-wrap,
+                          $text-decoration-thickness,
+                          $webkit-box-direction,
+                          $webkit-box-flex) {
+  align-items: $align-items;
+  display: $display;
+  cursor: $cursor;
+  flex-basis: $flex-basis;
+  flex-grow: $flex-grow;
+  flex-shrink: $flex-shrink;
+  flex-wrap: $flex-wrap;
+  text-decoration-thickness: $text-decoration-thickness;
+  -webkit-box-direction: $webkit-box-direction;
+  -webkit-box-flex: $webkit-box-flex;
+}
+
+// uses inside filter-item in next span class
+.filter-label {
+  @include filter-label-flex (flex-start, block, var(--cursor-pointer), 0%, 1, 1, nowrap, auto, normal, 1);
+  @include filterbox-typography(var(--color-black-default), var(--ff-default), var(--fs-caption1), var(--fw-normal),
+          1.3rem);
+}
+
+@mixin filter-count ($align-items,
+                     $cursor,
+                     $flex-wrap,
+                     $position,
+                     $text-decoration-thickness,
+                     $webkit-box-direction) {
+  align-items: $align-items;
+  cursor: $cursor;
+  flex-wrap: $flex-wrap;
+  position: $position;
+  text-decoration-thickness: $text-decoration-thickness;
+  webkit-box-direction: $webkit-box-direction;
+}
+
+// after filter-label inside filter-item
+.filter-count {
+  @include filter-count(flex-start, var(--cursor-pointer), wrap, relative, auto, normal);
+  @include filterbox-typography(rgb(107, 107, 107), var(--ff-default), var(--fs-caption1), var(--fw-normal),
+          1.3rem);
+}
